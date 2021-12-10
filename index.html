@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Mon CV en ligne </title>
+        <link rel="stylesheet" href="Untitled-2.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover">
+        <link rel="icon" type="image/png" href="https://i.pinimg.com/474x/0b/a8/22/0ba822e8f41f2e07253402baae1b4cf4.jpg">
+    </head>   
+    <body>
+        <div class="identity" id="moi">
+            <div class="sub" id="photo">
+                <img id=hisoka src="https://scontent-cdt1-1.xx.fbcdn.net/v/t1.6435-9/118815984_3253184601428468_1913121778137049794_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=Ytqx8F51_xEAX_vmfs_&_nc_ht=scontent-cdt1-1.xx&oh=00_AT81JI_S6xL7StUhNLhRCJNtoVs_yJT5Bt_4H16WSJD51w&oe=61DA9DD8" 
+                alt="profilphoto">
+            </div>           
+            <div class="sub" id="presentation">
+                <h1>Morgane Bara <br>Développeur informatique</h1>
+            </div>
+            <div class="sub" id="autres">
+                <h2>cv - rechercher de stage/ alternance</h2>
+                Naissance: 23/01/2001<br>
+                Adresse: 25 rue Joseph le Brix<br>
+                Mail: morgane.bara@viacesi.fr 
+                Linkedin: <a  href="https://www.linkedin.com/in/morgane-bara-2072011b1/">Morgane Bara</a>
+            </div>
+        </div>
+            <div class="experience" id="exp">
+                <div class="subexp" id="bakugo">
+                    <h2>Compétences Informatiques </h2>
+                        <ul>
+                            <li>PIX</li>
+                            <li>langage C :(fonction, tableau, pointeur)</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>PHP</li>
+                            <li>MySQL</li>
+                            <li>VM ( virtualBOX)</li><br>
+                        </ul>
+                </div>
+                <div class="subexp" id="deku">
+                    <h2>Diplômes et Formations</h2>
+                    <ul>
+                        <li><h4>Baccalauréat scientifique</h4>
+                            Lycée du Kreisker, Saint-Pol-de-Léon, France <br>
+                            spécialité ISN (informatique et science du numérique)<br>
+                            option arts plastiques<br></li>
+                        <li><h4>Licence LEA Anglais/Chinois </h4>
+                            UBO, faculté de lettres,Brest, France<br></li>
+                        <li><h4>Bachelor développement informatique </h4>
+                            CESI, Brest, France<br></li>
+                    </ul>
+                </div>
+                <div class="subexp" id="denki"> 
+                    <h2>Expériences profesionnelles</h2>
+                        <ul>
+                            <li> SERMETA, Morlaix : Avril 2015 (stage de 2 semaines)<br>
+                            Stage dune semaine afin de découvrir le <br>
+                            fonctionnement dune entreprise et ses <br>
+                            différents services (ateliers de production,<br>
+                            achat, supply chain, qualité, ressources<br>
+                            humaines, finance, ...)</li><br>
+                            <li> AWEL interim, Moprlaix : juin à juillet 2020<br>
+                            H&M, Goélia Résidence du golf</li><br>
+                            <li> MANPOWER, Morlaix : de mai à juillet 2021<br>
+                            Poste, D'aucy , SICA</li>
+                        </ul>   
+                </div>
+                <div class="subexp" id="redriot">
+                    <h2>Expériences </h2>
+                        <ul>
+                           <li>
+                               <h4>Projet BAC</h4>
+                                    création d'une interface web hébergeant trois <br>
+                                    jeux vidéos ainsi qu'un système de compte joueur<br>
+                                    qui sauvegarde l'avancée du joueur <br>
+                                    <i>html - php - css - MySQL - phython</i>
+                                    <br></li>
+                            <li>
+                                <h4>Projet CUBE</h4>
+                                    création d'une machine virtuelle sous Linux afin de gérer<br>
+                                    une interface web <br>
+                                   <i>ligne de commande linux - html - php - base de données (Mysql)</i>
+                                   <br></li>
+                            <li>
+                                <h4>Projet SQL</h4>
+                                    projet sur une base de donnée dédier pour une agence<br>
+                                    de voyage fictive 
+                                    <i>travail de groupe - MySQL - les différentes KEY </i> 
+                                <br></li>
+                        </ul>
+                </div>
+            </div>
+            <div class="comp" id="mainlife">
+                <div class="subcomp" id="atout">
+                    <h2>Atouts</h2>
+                    <ul>
+                        <li>Autonome</li>
+                        <li>Créative</li>
+                        <li>Travail de groupe </li>
+                        <li>Curiosité</li>
+                    </ul>
+                </div>
+                <div class="subcomp" id="loisir">
+                    <h2>Loisirs</h2>
+                    <ul>
+                        <li>Lecture</li>
+                        <li>judo<br>arbitre et juge lors de <br>
+                            compétitions, ceinture noire </li>
+                        <li>Voyager<br>en Europe principalement</li>
+                        <li>Les arts<br>musées, théâtre, concert </li>
+                    </ul>
+                </div>    
+            </div>
+        </div>
+        <script>
+            let countPresentation=0;
+                function clickedPresentation(){
+                    countPresentation+=1;
+                    console.log("On a clicker sur presentation",countPresentation)
+                }
+                let countBakugo=0;
+                function clickedBakugo(){
+                    countBakugo+=1;
+                    console.log("On a clicker sur experience ",countBakugo)
+                }
+                let countLoisir=0;              
+                 function clickedLoisir(){
+                    countLoisir+=1;
+                    console.log("On a clicker sur mes loisirs ",countLoisir)
+                }
+                let newPhoto = "https://lh3.googleusercontent.com/tSpXXt2tuQ4xTmux0r463PPm3b0jBx64vfuaXQYj6EjMaciSmJ3DYNwbtJZ6bfhBI3iS=s85";
+                function photoblues(){
+                    let oldPhoto;
+                    oldPhoto = document.querySelector("#hisoka").src;
+                    document.querySelector("#hisoka").src = newPhoto;
+                    newPhoto = oldPhoto;
+                }
+                console.log("Bonjours Horacio et Valérie!!");
+                document.querySelector('#presentation').addEventListener('click', clickedPresentation)
+                document.querySelector('#bakugo').addEventListener('click', clickedBakugo)
+                document.querySelector('#loisir').addEventListener('click', clickedLoisir)
+                document.querySelector('#hisoka').addEventListener('click',photoblues);
+        </script>
+    </body>
+</html>

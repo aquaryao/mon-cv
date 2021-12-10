@@ -1,0 +1,131 @@
+div{border: solid 2px white;}
+
+
+#moi{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    justify-content: center;
+}
+#moi div {
+    background-color: aliceblue;
+    height: 200px;
+    width: 150px;
+    min-width: 200px;
+    }
+#photo{
+        height: 200px;
+        border-radius: 20px;
+    }
+#presentation{
+        height: 300px;
+        width: 300px;
+        margin: 5%;
+        padding: 1%;
+        border-radius: 10px;
+     }
+#autres{ 
+        height: 200px;
+        border-radius: 10px;
+    }
+img {
+        width: 200px;
+        height: 200px;
+        float: left;
+    }
+
+#exp{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-basis: auto;
+    justify-content: center;
+}
+#exp div{
+    background-color: rgb(36, 109, 109); 
+    background-image: url(https://i.pinimg.com/474x/60/9a/7f/609a7fdb5c87539ce7ee7e3e73c2e134.jpg);
+    color: rgb(51, 51, 51);
+
+        }
+
+#denki{
+        height: 400px;
+        width: 475px;
+        border-radius: 10px;
+    }
+#redriot{
+        height: 400px;
+        width: 475px;
+        border-radius: 10px;
+    }
+#bakugo{
+        height: 400px;
+        width: 350px;
+        border-radius: 10px;
+}
+#deku{
+        height: 400px;
+        width: 350px;
+        border-radius: 10px;
+}
+body{
+
+    }
+#atout{
+    color: rgb(85, 122, 63);
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+}
+#loisir{
+    color: rgb(85, 122, 63);
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+}
+#mainlife{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-basis: auto;
+    justify-content: center;
+}
+#mainlife div{
+    background-color: rgb(36, 109, 109); 
+    background-image: url(https://i.pinimg.com/474x/60/9a/7f/609a7fdb5c87539ce7ee7e3e73c2e134.jpg);
+    color: aliceblue;
+}
+   
+@media (max-width: 850px){
+    #moi{
+         display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+         align-items: stretch;
+         justify-content: center;
+         align-items: center;
+         margin: auto;
+        }
+    #exp{
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+        align-items: stretch;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        }
+    #mainlife{
+        display: flex;
+        flex-flow: column row;
+        justify-content: space-between;
+        align-items: stretch;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+
+    }
+}
